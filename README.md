@@ -15,11 +15,15 @@ Como metrificar o uso do meu `Design System` no meu produto? Essa também era a 
 4. 🎤 [Parâmetros](#-parâmetros)
 5. 📝 [Licença](./LICENSE.md)
 
+<br/>
+
 ## 📌 Exemplo
 
 > Se quiser ver um exemplo completo, [clique aqui](src/assets/metrics-ds/METRICS.md)!
 
 ![Exemplo de documentação gerada](src/assets/example.png)
+
+<br/>
 
 ## 📊 Métricas Geradas
 
@@ -35,6 +39,8 @@ Até o momento, estas são as métricas geradas em documentação simples nos fo
 -  ✅ Percentual de páginas com pelo menos um componente do Design System
 -  ✅ Qual página tem mais componentes do Design System sendo usados
 -  ✅ Média de componentes do Design System por página
+
+<br/>
 
 ## 🚀 Como Usar
 
@@ -76,6 +82,8 @@ generateMetrics({
 ```sh
 yarn metrics-ds
 ```
+
+<br/>
 
 ## 🎤 Parâmetros
 
