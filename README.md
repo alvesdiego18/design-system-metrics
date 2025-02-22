@@ -1,9 +1,10 @@
 # Design System Metrics
 
-Como metrificar o uso do meu Design System no meu produto? Essa também era a minha dúvida! Pensando nisso, essa biblioteca foi criada com o objetivo de gerar uma documentação simples com algumas métricas sobre o uso do meu `Design System` dentro de um produto.
+Como metrificar o uso do meu `Design System` no meu produto? Essa também era a minha dúvida! Pensando nisso, essa biblioteca foi criada com o objetivo de gerar uma documentação simples com algumas métricas sobre o uso do meu `Design System` dentro de um produto.
 
 <div>
-   <img src="https://img.shields.io/badge/Typescript-235a97" alt="Typescript" />        
+   <img alt="Static Badge" src="https://img.shields.io/badge/versão-1.0.0-blue">
+   <img alt="Static Badge" src="https://img.shields.io/badge/design_system-green">   
 </div>
 
 ## 📖 Sumário
