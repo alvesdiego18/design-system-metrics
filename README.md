@@ -4,12 +4,17 @@
 
 Essa também era a minha dúvida! Pensando nisso, essa biblioteca foi criada com o objetivo de gerar uma documentação simples com algumas métricas sobre o uso do meu `Design System` dentro de um produto.
 
+ <div>
+    <img src="https://img.shields.io/badge/Typescript-235a97" alt="Typescript" />        
+</div>
+
 ## 📖 Índice
 
-1. [📌 Exemplo](#-exemplo)
-2. [📊 Métricas Geradas](#-métricas-geradas)
-3. [🚀 Como Usar](#-como-usar)
-4. [⚙️ Parâmetros](#-parâmetros)
+1. 📌 [Exemplo](#-exemplo)
+2. 📊 [Métricas Geradas](#-métricas-geradas)
+3. 🚀 [Como Usar](#-como-usar)
+4. 🎤 [Parâmetros](#-parâmetros)
+5. 📝 [Licença](./LICENSE.md)
 
 ## 📌 Exemplo
 
@@ -73,7 +78,7 @@ generateMetrics({
 yarn metrics-ds
 ```
 
-## ⚙️ Parâmetros
+## 🎤 Parâmetros
 
 | Nome                    | Tipo     | Descrição                                     | Padrão       | Obrigatório |
 | ----------------------- | -------- | --------------------------------------------- | ------------ | ----------- |
