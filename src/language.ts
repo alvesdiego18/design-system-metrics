@@ -1,0 +1,53 @@
+import textLanguage from './assets/languages.json'
+
+export type TLanguageOptions = 'pt-BR' | 'en-US'
+
+type TProps = 'title'
+   | 'subtitle'
+   | 'topic-total-general'
+   | 'topic-total-per-component'
+   | 'topic-total-per-page'
+   | 'topic-average-per-page'
+   | 'topic-configuration'
+   | 'total-general'
+   | 'total-general-subtitle'
+   | 'total-general-t1'
+   | 'total-general-t2'
+   | 'total-general-t3'
+   | 'total-general-t4'
+   | 'total-component'
+   | 'total-component-subtitle'
+   | 'total-component-t1'
+   | 'total-component-t2'
+   | 'total-page'
+   | 'total-page-subtitle'
+   | 'total-page-t1'
+   | 'total-page-t2'
+   | 'total-page-t3'
+   | 'total-page-t4'
+   | 'total-page-t5'
+   | 'average-page'
+   | 'average-page-subtitle'
+   | 'average-page-t1'
+   | 'average-page-t2'
+   | 'average-page-t3'
+   | 'configuration'
+   | 'configuration-subtitle'
+   | 'configuration-t1'
+   | 'configuration-t2'
+   | 'configuration-t3'
+   | 'directory-search'
+   | 'component-ignored'
+   | 'component-ignored'
+   | 'message-dir-search'
+   | 'message-extension'
+   | 'message-prefix'
+   | 'message-search-component'
+   | 'others'
+
+export function getTextLanguage(
+   text: TProps,
+   language: TLanguageOptions
+) {
+   return textLanguage[language][text]
+}
